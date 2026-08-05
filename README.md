@@ -1,5 +1,6 @@
 #  DevStream — Time-Series Telemetry & Memory Profiler Engine (Vue 3)
 -------------------------------------------------------------------------------------------
+
 DevStream is a time-series telemetry and observability laboratory engineered with Vue 3 (Composition API `<script setup>`). It simulates streaming infrastructure metrics (CPU load, memory heap, network latency), manages memory buffers via sliding window arrays (`slice()`), detects metric anomaly spikes in real-time, and renders animated stream visualizations.
 
 ##  Technical Architecture Overview
