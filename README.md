@@ -17,7 +17,5 @@ DevStream is a time-series telemetry and observability laboratory engineered wit
 ##  Running Instructions
 -----------------------------------------------------
 
-1. Install dependencies: `npm install`
-
 
 -------------------------------------------------------
