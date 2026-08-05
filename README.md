@@ -5,7 +5,7 @@ DevStream is a time-series telemetry and observability laboratory engineered wit
 
 ## Preview
 -------------------------------------------------------------------------------------------
-![](
+![](dev
 
 ##  Technical Architecture Overview
 *  **Sliding Window Buffering:** Implements array memory windowing techniques to maintain a fixed time-series capacity (`.slice(-windowSize)`), preventing memory leaks during continuous streaming.
