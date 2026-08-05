@@ -5,7 +5,7 @@ DevStream is a time-series telemetry and observability laboratory engineered wit
 ##  Technical Architecture Overview
 *  **Sliding Window Buffering:** Implements array memory windowing techniques to maintain a fixed time-series capacity (`.slice(-windowSize)`), preventing memory leaks during continuous streaming.
 *  **Real-Time Anomaly Analysis:** Computes moving averages and evaluates dynamic percentage thresholds to instantly flag telemetry spikes down to logging terminals.
-* ⚡ **Vue Lifecycle Streams:** Utilizes Vue 3 `onMounted` and `onUnmounted` lifecycle hooks to manage timer interval memory allocations safely.
+*  **Vue Lifecycle Streams:** Utilizes Vue 3 `onMounted` and `onUnmounted` lifecycle hooks to manage timer interval memory allocations safely.
 
 ## ⚙️ Running Instructions
 1. Install dependencies: `npm install`
